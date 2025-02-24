@@ -1,0 +1,2 @@
+Open CMD pip install ultralytics
+yolo task=detect mode=predict conf=0.25 model=best.pt source=egg-data/*.jpg save=True
